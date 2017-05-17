@@ -8,7 +8,9 @@ SharedPreferences 工具SPTools
 
 Stringtools 字符串转十六进制byte[]数组等
 
-后续还会添加使用请添加仓库
+后续还会添加
+
+使用请添加仓库
 
 	
         allprojects {
