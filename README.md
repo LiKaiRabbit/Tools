@@ -24,5 +24,5 @@ Stringtools 字符串转十六进制byte[]数组等
  以及依赖
      
      dependencies {
-	        compile 'com.github.LiKaiRabbit:Tools
+	        compile 'com.github.LiKaiRabbit:Tools:1.0'
 	}
