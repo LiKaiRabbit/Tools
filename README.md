@@ -8,6 +8,8 @@ SharedPreferences 工具SPTools
 
 Stringtools 字符串转十六进制byte[]数组等
 
+PermissionUtils动态申请权限工具，app里有demo
+
 后续还会添加
 
 使用请添加仓库
