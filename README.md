@@ -26,5 +26,5 @@ PermissionUtils动态申请权限工具，app里有demo
  以及依赖
      
      dependencies {
-	        compile 'com.github.LiKaiRabbit:Tools:1.0'
+	        compile 'com.github.LiKaiRabbit:Tools:2.0'
 	}
