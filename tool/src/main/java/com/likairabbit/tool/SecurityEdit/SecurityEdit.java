@@ -1,7 +1,6 @@
 package com.likairabbit.tool.SecurityEdit;
 
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.text.Editable;
@@ -114,8 +113,7 @@ public class SecurityEdit extends LinearLayout{
 	       
 	    }
 
-	public static SecurityEdit ShowSecurityEdit(Activity mActivity){
-		AlertDialog dialog = new AlertDialog.Builder(mActivity).create();
+	public static SecurityEdit ShowSecurityEdit(AlertDialog dialog){
 		dialog.setCanceledOnTouchOutside(false);
 		dialog.show();
 		Window window = dialog.getWindow();
