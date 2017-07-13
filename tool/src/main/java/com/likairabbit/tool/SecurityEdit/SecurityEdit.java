@@ -125,4 +125,20 @@ public class SecurityEdit extends LinearLayout{
 				.findViewById(R.id.security_linear123);
 		return editSecurityCode;
 	}
+
+
+	public static SecurityEdit ShowSecurityEditSetText(AlertDialog dialog,String string){
+		dialog.setCanceledOnTouchOutside(false);
+		dialog.show();
+		Window window = dialog.getWindow();
+		window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE
+				| WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
+		window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+		window.setContentView(R.layout.activity_input_password_dialog);
+		TextView tv_queren = (TextView) window.findViewById(R.id.tv_bind_title);
+		tv_queren.setText(string);
+		SecurityEdit editSecurityCode = (SecurityEdit) window
+				.findViewById(R.id.security_linear123);
+		return editSecurityCode;
+	}
 }
